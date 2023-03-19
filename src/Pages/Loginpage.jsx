@@ -69,7 +69,7 @@ export default function Loginpage() {
                       //alert("pass đúng")
                       setislogin(true);
                       setVislogin(true);
-                      
+                      // props.pop_islogin();
 
                       navigate("/react_baicuoikhoa");
 
