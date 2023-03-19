@@ -74,7 +74,7 @@ export default function HomePage() {
                   Shop now
                 </button>
               </div>
-              <img className="img-fluid" alt="" src="/home_pop/bg-img.png" />
+              <img className="img-fluid" alt="" src="/react_baicuoikhoa/home_pop/bg-img.png" />
             </div>
           </div>
           <div className="col-12 col-lg-4 mt-4 mt-lg-0">
@@ -92,7 +92,7 @@ export default function HomePage() {
                   </button>
                 </div>
 
-                <img className="img-fluid" alt="" src="/home_pop/wc-12-1.png" />
+                <img className="img-fluid" alt="" src="/react_baicuoikhoa/home_pop/wc-12-1.png" />
               </div>
 
 
@@ -116,7 +116,7 @@ export default function HomePage() {
                   </button>
                 </div>
 
-                <img className="img-fluid" alt="" src="/home_pop/decoration.png" />
+                <img className="img-fluid" alt="" src="/react_baicuoikhoa/home_pop/decoration.png" />
               </div>
 
             </div>
@@ -141,7 +141,7 @@ export default function HomePage() {
                   </button>
                 </div>
 
-                <img alt="" className="img-fluid" src="/home_pop/posters.png" />
+                <img alt="" className="img-fluid" src="/react_baicuoikhoa/home_pop/posters.png" />
               </div>
 
             </div>
@@ -294,7 +294,7 @@ export default function HomePage() {
           <div className="position-relative mt-4 mt-lg-0 col-lg-6">
 
 
-            <img className="img-fluid img_full" alt="" src="/home_pop/wc-ban.png" />
+            <img className="img-fluid img_full" alt="" src="/react_baicuoikhoa/home_pop/wc-ban.png" />
           </div>
 
 
@@ -319,7 +319,7 @@ export default function HomePage() {
             <TolinkB
               color_bg={"bg-white"}
               text_infor={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."}
-              img_pop={"/home_pop/peter.png"}
+              img_pop={"/react_baicuoikhoa/home_pop/peter.png"}
               name_pop={"Peter"}
               profession={"Smith"}
               color_tex={"testimonials_c1"}
@@ -328,7 +328,7 @@ export default function HomePage() {
             <TolinkB
               color_bg={"bg-black"}
               text_infor={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."}
-              img_pop={"/home_pop/portrait.png"}
+              img_pop={"/react_baicuoikhoa/home_pop/portrait.png"}
               name_pop={"Oliver"}
               profession={"OliverPeterson"}
               color_tex={"testimonials_c2"}
@@ -337,7 +337,7 @@ export default function HomePage() {
             <TolinkB
               color_bg={"bg-white"}
               text_infor={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."}
-              img_pop={"/home_pop/portrait_p.png"}
+              img_pop={"/react_baicuoikhoa/home_pop/portrait_p.png"}
               name_pop={"Jane"}
               profession={"Doe"}
               color_tex={"testimonials_c1"}

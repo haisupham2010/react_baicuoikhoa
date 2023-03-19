@@ -20,20 +20,20 @@ export default function Footer() {
               <Footer_inf
                 tex_prop={"How I Started My eCommerce Shop"}
                 date_prop={"July 4, 2022"}
-                img_prop={"/home_pop/wc-img-1.png"}
+                img_prop={"/react_baicuoikhoa/home_pop/wc-img-1.png"}
               />
 
               <Footer_inf
                 tex_prop={"Quitting My Corporate Job for My Startup"}
                 date_prop={"July 4, 2022"}
-                img_prop={"/home_pop/blog-img-5.png"}
+                img_prop={"/react_baicuoikhoa/home_pop/blog-img-5.png"}
               />
 
 
               <Footer_inf
                 tex_prop={"The Most Important Skills In Life"}
                 date_prop={"July 1, 2022 "}
-                img_prop={"/home_pop/blog-img-3-1.png"}
+                img_prop={"/react_baicuoikhoa/home_pop/blog-img-3-1.png"}
               />
 
             </div>

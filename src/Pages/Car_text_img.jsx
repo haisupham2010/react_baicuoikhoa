@@ -24,7 +24,7 @@ export default function Car_text_img() {
             <div className="position-relative col-6">
             
   
-              <img style={{ borderRadius: "5%" }} className="img-fluid" alt="" src="/home_pop/content-img-600x400.jpg" />
+              <img style={{ borderRadius: "5%" }} className="img-fluid" alt="" src="/react_baicuoikhoa/home_pop/content-img-600x400.jpg" />
             </div>
            {/* hình end */}
   

@@ -9,7 +9,7 @@
 }
 
 .top_tc{
-    background-image: url("../public/home_pop/bg-img.png");
+    /* background-image: url("../public/react_baicuoikhoa/home_pop/bg-img.png"); */
     top: 50%;
     left: 50%;
      text-align: center;
@@ -21,7 +21,7 @@
     }    
 
     .top_x{
-        background-image: url("../public/home_pop/bg-img.png");
+        /* background-image: url("../public/react_baicuoikhoa/home_pop/bg-img.png"); */
         height: var(--height_d);
         background-position: center;
 
