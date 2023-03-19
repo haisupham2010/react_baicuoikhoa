@@ -63,7 +63,7 @@ function App() {
       {/* <Loginpage /> */}
       {/* <Register /> */}
       {/* <Aboutusmenu /> */}
-      {/* <IsloginProvider> //haixoa*/}
+      <IsloginProvider>
 
         <div className="container">
           <div className="row" >
@@ -127,7 +127,7 @@ function App() {
 
       </div> */}
 
-      {/* </IsloginProvider> //haixoa */}
+      </IsloginProvider> 
     </div >
 
 
