@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 import { useContext } from "react";
-import {IsloginContext} from "./Pages/IsloginContext";
+// import {IsloginContext} from "./Pages/IsloginContext";  //haixoa
 
 
 import logo from './logo.svg';
@@ -41,7 +41,7 @@ import Contactus from "./Pages/Contactus";
 import Register from "./Pages/Register";
 import Loginpage from "./Pages/Loginpage";
 
-import { IsloginProvider } from "./Pages/IsloginContext";
+// import { IsloginProvider } from "./Pages/IsloginContext"; //haixoa
 
 library.add(fab, faCheckSquare, faCoffee, faShieldHalved, faTruckFast, faLifeRing);
 
@@ -51,10 +51,9 @@ library.add(fab, faCheckSquare, faCoffee, faShieldHalved, faTruckFast, faLifeRin
 
 function App() {
 
-  const { Vislogin, setVislogin } = useContext(IsloginContext);
-
-  console.log("Vislogin");
-  console.log(Vislogin);
+  // const { Vislogin, setVislogin } = useContext(IsloginContext);
+  // console.log("Vislogin");
+  // console.log(Vislogin);
 
   return (
     <div>
@@ -64,7 +63,7 @@ function App() {
       {/* <Loginpage /> */}
       {/* <Register /> */}
       {/* <Aboutusmenu /> */}
-      <IsloginProvider>
+      {/* <IsloginProvider> //haixoa*/}
 
         <div className="container">
           <div className="row" >
@@ -90,9 +89,9 @@ function App() {
 
               </div>
 
-              {Vislogin &&  (<div style={{ width: "50px", height: "50px" }} >
+              {/* {Vislogin &&  (<div style={{ width: "50px", height: "50px" }} >
                 <img className="img-fluid" alt="" src="/react_baicuoikhoa/loginpage/loginpage.png" />
-              </div>)}
+              </div>)} */}
 
 
             </div>
@@ -128,7 +127,7 @@ function App() {
 
       </div> */}
 
-      </IsloginProvider>
+      {/* </IsloginProvider> //haixoa */}
     </div >
 
 
