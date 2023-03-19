@@ -11,8 +11,8 @@ export default function Loginstatus() {
          setVislogin(false)
         };
     //   setVislogin_prop();
-    // console.log("Vislogin");
-    // console.log(Vislogin);
+    console.log("Vislogin");
+    console.log(Vislogin);
 
 
     return (
