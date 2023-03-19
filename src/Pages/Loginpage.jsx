@@ -1,12 +1,21 @@
 
 import { useState } from "react";
+import {IsloginContext} from "./IsloginContext";
+import { useContext } from "react";
+import { useNavigate } from "react-router-dom";
 
 const initCredential = { email: "", password: "", confirm_password: "" };
+// import { useContext } from "react";
 
 
 
 // onSubmit={handleFormSubmit}
 export default function Loginpage() {
+  const navigate = useNavigate();
+  const { Vislogin, setVislogin } = useContext(IsloginContext);
+  console.log("/////");
+ console.log(Vislogin);
+
   const [credential, setCredential] = useState(initCredential);
 
   const [islogin, setislogin] = useState(false);
@@ -58,7 +67,12 @@ export default function Loginpage() {
                     // check pass đúng sai
                     if (data.kq == credential.password ){
                       //alert("pass đúng")
-                      setislogin(true)
+                      setislogin(true);
+                      setVislogin(true);
+                      
+
+                      navigate("/react_baicuoikhoa");
+
                       setispass_true(false)
                     }
                     else{

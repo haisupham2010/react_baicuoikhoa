@@ -2,6 +2,11 @@
 
 import { Routes, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
+
+import { useContext } from "react";
+import {IsloginContext} from "./Pages/IsloginContext";
+
+
 import logo from './logo.svg';
 import './App.css';
 import './home.css';
@@ -36,6 +41,7 @@ import Contactus from "./Pages/Contactus";
 import Register from "./Pages/Register";
 import Loginpage from "./Pages/Loginpage";
 
+import { IsloginProvider } from "./Pages/IsloginContext";
 
 library.add(fab, faCheckSquare, faCoffee, faShieldHalved, faTruckFast, faLifeRing);
 
@@ -45,9 +51,10 @@ library.add(fab, faCheckSquare, faCoffee, faShieldHalved, faTruckFast, faLifeRin
 
 function App() {
 
+  const { Vislogin, setVislogin } = useContext(IsloginContext);
 
-
-  console.log(document.body.offsetWidth);
+  console.log("Vislogin");
+  console.log(Vislogin);
 
   return (
     <div>
@@ -57,54 +64,56 @@ function App() {
       {/* <Loginpage /> */}
       {/* <Register /> */}
       {/* <Aboutusmenu /> */}
+      <IsloginProvider>
+
+        <div className="container">
+          <div className="row" >
+            <div className="d-flex mb-2" style={{ gap: "5px", justifyContent: "flex-end", alignItems: "center" }}>
+              <div>
+                <div className="btn btn-primary" style={{ backgroundColor: "blue" }}>
+                  <Link to="/react_baicuoikhoa/register" style={{ color: "white" }}>
+                    Register
+                  </Link>
+                </div>
 
 
-      <div className="container">
-        <div className="row" >
-          <div className="d-flex mb-2" style={{ gap: "5px", justifyContent: "flex-end", alignItems: "center" }}>
-            <div>
-              <div className="btn btn-primary" style={{backgroundColor: "blue"}}>
-              <Link to="/react_baicuoikhoa/register" style={{color: "white"}}>
-                Register
-              </Link>
               </div>
-    
+
+              <div>
+
+
+                <div className="btn btn-primary" style={{ backgroundColor: "blue" }}>
+                  <Link to="/react_baicuoikhoa/login" style={{ color: "white" }}>
+                    Login
+                  </Link>
+                </div>
+
+              </div>
+
+              {Vislogin &&  (<div style={{ width: "50px", height: "50px" }} >
+                <img className="img-fluid" alt="" src="/react_baicuoikhoa/loginpage/loginpage.png" />
+              </div>)}
+
 
             </div>
-
-            <div>
-              <button type="button" className="btn btn-primary">
-                Login
-              </button>
-
-            </div>
-
-            <div style={{ width: "50px", height: "50px" }} >
-
-
-              <img className="img-fluid" alt="" src="/react_baicuoikhoa/loginpage/loginpage.png" />
-            </div>
-
 
           </div>
-
         </div>
-      </div>
-      {/* <HomePage /> */}
-      <Routes> 
-       
+        {/* <HomePage /> */}
+        <Routes>
+
           <Route path="/react_baicuoikhoa" element={<HomePage />} />
-          <Route path="/react_baicuoikhoa/register" element={<Register /> } />
+          <Route path="/react_baicuoikhoa/register" element={<Register />} />
+          <Route path="/react_baicuoikhoa/login" element={<Loginpage />} />
 
-      
-       </Routes>
+        </Routes>
 
-      {/* <ConnectionState isConnected={isConnected} />
+        {/* <ConnectionState isConnected={isConnected} />
       <Events events={fooEvents} />
       <ConnectionManager />
       <MyForm /> */}
 
-      {/* <div className="hotro">
+        {/* <div className="hotro">
 
         <p style={{ color: "white", textAlign: "center", fontSize: "20px" }}>Hổ trợ trực tuyến</p>
         <div id="bbbb">
@@ -119,7 +128,7 @@ function App() {
 
       </div> */}
 
-
+      </IsloginProvider>
     </div >
 
 

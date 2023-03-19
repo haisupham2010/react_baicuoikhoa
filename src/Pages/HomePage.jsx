@@ -8,7 +8,7 @@ import Aboutus from "./Aboutus";
 
 import { AuthProvider } from "./AuthContext";
 
-import { TranslationProvider } from "./TranslationContext";
+import { TranslationProvider } from "./IsloginContext";
 import { useState } from "react";
 
 import Footer_inf from "./Footer_inf";
