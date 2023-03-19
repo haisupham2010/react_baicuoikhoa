@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 import { useContext } from "react";
-// import {IsloginContext} from "./Pages/IsloginContext";  //haixoa
+import {IsloginContext} from "./Pages/IsloginContext";  //haixoa
 
 
 import logo from './logo.svg';
@@ -41,7 +41,7 @@ import Contactus from "./Pages/Contactus";
 import Register from "./Pages/Register";
 import Loginpage from "./Pages/Loginpage";
 
-// import { IsloginProvider } from "./Pages/IsloginContext"; //haixoa
+import { IsloginProvider } from "./Pages/IsloginContext"; //haixoa
 
 library.add(fab, faCheckSquare, faCoffee, faShieldHalved, faTruckFast, faLifeRing);
 
