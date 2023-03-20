@@ -57,9 +57,9 @@ function App() {
 
   return (
     <div>
-      <div className="position-relative d-flex align-items-center justify-content-center" style={{ height: "1200px", backgroundColor: "#ebe9eb" }}>
+      {/* <div className="position-relative d-flex align-items-center justify-content-center" style={{ height: "1200px", backgroundColor: "#ebe9eb" }}>
       <Contactus />
-      </div>
+      </div> */}
       {/* <Loginpage /> */}
       {/* <Register /> */}
       {/* <Aboutusmenu /> */}
@@ -70,7 +70,7 @@ function App() {
         {/* <HomePage /> */}
         <Routes>
 
-          <Route path="/react_baicuoikhoa" element={<HomePage />} />
+          <Route path="/react_baicuoikhoa/" element={<HomePage />} />
           <Route path="/react_baicuoikhoa/register" element={<Register />} />
           <Route path="/react_baicuoikhoa/login" element={<Loginpage  />} />
           <Route path="/react_baicuoikhoa/login/:idd" element={<Aboutusmenu />} />

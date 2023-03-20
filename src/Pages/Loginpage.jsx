@@ -118,7 +118,7 @@ export default function Loginpage() {
         <div style={{ width: "380px", height: "200px" }}>
               <img
                 className="mb-4 logo" style={{ width: "100%", height: "100%" }}
-                src="./logo.png"
+                src="/react_baicuoikhoa/logo.png"
                 alt=""
               />
             </div>
