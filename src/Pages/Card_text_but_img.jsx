@@ -1,7 +1,9 @@
 
 import './Aboutusmenu.css';
 // import { useState } from "react";
-
+import img1 from "../home_pop/header-1.jpg" ;
+import img2 from "../home_pop/header-2-1.jpg" ;
+import img3 from "../home_pop/header-3-1.jpg" ;
 
 export default function Card_text_but_img(props) {
 
@@ -72,41 +74,41 @@ export default function Card_text_but_img(props) {
         <div className="position-relative col-6" style={{ height: "600px" }}>
 
           {/* <div className="position-absolute col-4 ani_css">
-            <img className="img_full" alt="" src="/react_baicuoikhoa/home_pop/header-1.jpg" />
+            <img className="img_full" alt="" src="../home_pop/header-1.jpg" />
           </div> */}
 
           {/* <div className="position-absolute col-5" style={{ top: "60px" }}>
-            <img style={{ borderRadius: "5%" }} className="img_full" alt="" src="/react_baicuoikhoa/home_pop/header-1.jpg" />
+            <img style={{ borderRadius: "5%" }} className="img_full" alt="" src="../home_pop/header-1.jpg" />
           </div> */}
           {/* left: "400px", */}
 
          <div id="anixoa" className="position-absolute col-5 ani_aboua" style={{top: "60px" }}>
-            <img style={{ borderRadius: "5%" }} className="img_full" alt="" src="/react_baicuoikhoa/home_pop/header-1.jpg" />
+            <img style={{ borderRadius: "5%" }} className="img_full" alt="" src={img1} />
           </div>
 
 
 
           {/* <div className="position-absolute col-4" style={{ left: "300px", top: "115px" }} >
-            <img style={{ borderRadius: "5%" }} className="img_full" alt="" src="/react_baicuoikhoa/home_pop/header-2-1.jpg" />
+            <img style={{ borderRadius: "5%" }} className="img_full" alt="" src="../home_pop/header-2-1.jpg" />
           </div> */}
 
           <div id="anixob" className="position-absolute col-4 ani_aboub" style={{ top: "115px" }} >
-            <img style={{ borderRadius: "5%" }} className="img_full" alt="" src="/react_baicuoikhoa/home_pop/header-2-1.jpg" />
+            <img style={{ borderRadius: "5%" }} className="img_full" alt="" src={img2} />
           </div>
 
 
 
           {/* <div className="position-absolute col-8" style={{ left: "95px", top: "350px" }} >
-            <img style={{ borderRadius: "5%" }} className="img_full" alt="" src="/react_baicuoikhoa/home_pop/header-3-1.jpg" />
+            <img style={{ borderRadius: "5%" }} className="img_full" alt="" src="../home_pop/header-3-1.jpg" />
           </div> */}
 
           <div id="anixoc" className="position-absolute col-8 ani_abouc" style={{ top: "150px" }} >
-            <img style={{ borderRadius: "5%" }} className="img_full" alt="" src="/react_baicuoikhoa/home_pop/header-3-1.jpg" />
+            <img style={{ borderRadius: "5%" }} className="img_full" alt="" src={img3} />
           </div>
 
 
 
-          {/* <img className="img-fluid" alt="" src="/react_baicuoikhoa/home_pop/wc-ban.png" /> */}
+          {/* <img className="img-fluid" alt="" src="../home_pop/wc-ban.png" /> */}
         </div>
         {/* hình end */}
 

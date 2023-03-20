@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { IsloginContext } from "./IsloginContext";  //haixoa
-
+import imglogin from "../loginpage/loginpage.png";
 
 export default function Loginstatus() {
 
@@ -11,16 +11,15 @@ export default function Loginstatus() {
          setVislogin(false)
         };
     //   setVislogin_prop();
-    console.log("Vislogin");
-    console.log(Vislogin);
+    // console.log("Vislogin");
+    // console.log(Vislogin);
 
 
     return (
         <>
 
 
-            <div className="container">
-                <div className="row" >
+       
                     <div className="d-flex mb-2" style={{ gap: "5px", justifyContent: "flex-end", alignItems: "center" }}>
                         <div>
 
@@ -52,15 +51,13 @@ export default function Loginstatus() {
                         </div>
 
                         {Vislogin && (<div style={{ width: "50px", height: "50px" }} >
-                            <img className="img-fluid" alt="" src="/react_baicuoikhoa/loginpage/loginpage.png" />
+                            <img className="img-fluid" alt="" src={imglogin} />
                         </div>)}
 
 
                     </div>
 
-                </div>
-            </div>
-
+    
 
 
         </>

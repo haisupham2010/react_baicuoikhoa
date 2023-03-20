@@ -1,4 +1,4 @@
-import { useEffect} from "react";
+import { useEffect } from "react";
 import PopularProducts from "./PopularProducts";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faCoffee } from '@fortawesome/free-solid-svg-icons'
@@ -14,40 +14,19 @@ import { useState } from "react";
 import Footer_inf from "./Footer_inf";
 // import Footer from "./Footer";
 import { products_home } from "./data";
+import img_home1 from "../home_pop/bg-img.png";
+
+import img_home2 from "../home_pop/wc-12-1.png";
+import img_home3 from "../home_pop/decoration.png";
+import img_home4 from "../home_pop/posters.png";
+import img_home5 from "../home_pop/wc-ban.png";
+import imgg1 from "../home_pop/peter.png";
+import imgg2 from "../home_pop/portrait.png";
+import imgg3 from "../home_pop/portrait_p.png";
 
 export default function HomePage() {
-  
-
-  // fetch("https://tuongdoirong.com/node.php?f=outdata&up_gt=SELECT email FROM bangtao WHERE email='nguyen@gmail.com'&cot=email&database=bo_dem_ip").then((data) => {
-  //   console.log("useEffects data", data);
-
-  // });
-
-  // const callapi = async() => {
-  //   const response = await fetch("https://pokeapi.co/api/v2/pokemon"); // khi ta gọi nhiều dòng ở đây thì nó sẽ theo trình tự đợi kết quả thằng này và sẽ tiếp chạy thằng kia
-  //   const data = await response;
-  
-  // };
-
-  //   const fetchPokemon = async () => {
-  //   const response = await fetch("https://pokeapi.co/api/v2/pokemon");
-  //   const data = await response.json();
-
-  //   console.log("data fetch", data);
-  // };
-//   const fetchPokemon = async () => {
-//     const response = await fetch("https://tuongdoirong.com/api/node.php?f=outdata&up_gt=SELECT email FROM bangtao WHERE email='nguyen@gmail.com'&cot=email&database=bo_dem_ip");
-//     const data = await response.json();
-//     // setPokemons(data.results);
-//     console.log("data fetch", data.kq);
-//   };
 
 
-//   useEffect(() => {
-
-//     fetchPokemon();
-
-//  }, []);
 
   return (
 
@@ -66,24 +45,31 @@ export default function HomePage() {
 
 
           <div className="position-relative col-12 mb-0 mb-lg-4">
-            <div>
+            <div className="bg-primary">
+
+              <img className="" style={{ width: "100%", height: "100%" }} alt="" src={img_home1} />
+
               <div className="position-absolute css_text_midle">
+
                 <div className="TolinkA_1">Let’s Bring Beauty to Your Home</div>
                 <div style={{ color: "white" }}>Fast Delivery & Fair Prices</div>
                 <button type="button" className="btn btn-lg btn-primary mt-4 metqua">
                   Shop now
                 </button>
               </div>
-              <img className="img-fluid" alt="" src="/react_baicuoikhoa/home_pop/bg-img.png" />
             </div>
           </div>
+
+
+
+
           <div className="col-12 col-lg-4 mt-4 mt-lg-0">
 
             <div className="position-relative">
 
               <div>
 
-
+              <img style={{ width: "100%", height: "100%" }} alt="" src={img_home2} />
                 <div className="position-absolute css_text_midle">
 
                   <div style={{ color: "white", fontSize: 30, }}>Furniture</div>
@@ -92,7 +78,7 @@ export default function HomePage() {
                   </button>
                 </div>
 
-                <img className="img-fluid" alt="" src="/react_baicuoikhoa/home_pop/wc-12-1.png" />
+            
               </div>
 
 
@@ -108,6 +94,8 @@ export default function HomePage() {
 
 
               <div>
+
+              <img style={{ width: "100%", height: "100%" }} alt="" src={img_home3} />
                 <div className="position-absolute css_text_midle">
 
                   <div style={{ color: "white", fontSize: 30, }}>Decoration</div>
@@ -116,7 +104,7 @@ export default function HomePage() {
                   </button>
                 </div>
 
-                <img className="img-fluid" alt="" src="/react_baicuoikhoa/home_pop/decoration.png" />
+               
               </div>
 
             </div>
@@ -133,6 +121,10 @@ export default function HomePage() {
 
 
               <div>
+
+
+                <img alt="" style={{ width: "100%", height: "100%" }} src={img_home4} />
+
                 <div className="position-absolute css_text_midle">
 
                   <div style={{ color: "white", fontSize: 30, }}>Posters</div>
@@ -140,8 +132,6 @@ export default function HomePage() {
                     Shop Now {"->"}
                   </button>
                 </div>
-
-                <img alt="" className="img-fluid" src="/react_baicuoikhoa/home_pop/posters.png" />
               </div>
 
             </div>
@@ -294,7 +284,7 @@ export default function HomePage() {
           <div className="position-relative mt-4 mt-lg-0 col-lg-6">
 
 
-            <img className="img-fluid img_full" alt="" src="/react_baicuoikhoa/home_pop/wc-ban.png" />
+            <img className="img-fluid img_full" alt="" src={img_home5} />
           </div>
 
 
@@ -319,7 +309,7 @@ export default function HomePage() {
             <TolinkB
               color_bg={"bg-white"}
               text_infor={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."}
-              img_pop={"/react_baicuoikhoa/home_pop/peter.png"}
+              img_pop={imgg1}
               name_pop={"Peter"}
               profession={"Smith"}
               color_tex={"testimonials_c1"}
@@ -328,7 +318,7 @@ export default function HomePage() {
             <TolinkB
               color_bg={"bg-black"}
               text_infor={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."}
-              img_pop={"/react_baicuoikhoa/home_pop/portrait.png"}
+              img_pop={imgg2}
               name_pop={"Oliver"}
               profession={"OliverPeterson"}
               color_tex={"testimonials_c2"}
@@ -337,7 +327,7 @@ export default function HomePage() {
             <TolinkB
               color_bg={"bg-white"}
               text_infor={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."}
-              img_pop={"/react_baicuoikhoa/home_pop/portrait_p.png"}
+              img_pop={imgg3}
               name_pop={"Jane"}
               profession={"Doe"}
               color_tex={"testimonials_c1"}

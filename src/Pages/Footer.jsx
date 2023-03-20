@@ -1,6 +1,11 @@
 import Footer_inf from "./Footer_inf";
 import Aboutus from "./Aboutus";
 
+import img_home1 from "../home_pop/wc-img-1.png";
+import img_home2 from "../home_pop/blog-img-5.png";
+import img_home3 from "../home_pop/blog-img-3-1.png";
+
+
 export default function Footer() {
   return (
     <div className="d-flex bg-dark testimonials_res" style={{ alignItems: "center" }}>
@@ -20,20 +25,20 @@ export default function Footer() {
               <Footer_inf
                 tex_prop={"How I Started My eCommerce Shop"}
                 date_prop={"July 4, 2022"}
-                img_prop={"/react_baicuoikhoa/home_pop/wc-img-1.png"}
+                img_prop={img_home1}
               />
 
               <Footer_inf
                 tex_prop={"Quitting My Corporate Job for My Startup"}
                 date_prop={"July 4, 2022"}
-                img_prop={"/react_baicuoikhoa/home_pop/blog-img-5.png"}
+                img_prop={img_home2}
               />
 
 
               <Footer_inf
                 tex_prop={"The Most Important Skills In Life"}
                 date_prop={"July 1, 2022 "}
-                img_prop={"/react_baicuoikhoa/home_pop/blog-img-3-1.png"}
+                img_prop={img_home3}
               />
 
             </div>
@@ -59,7 +64,7 @@ export default function Footer() {
 
         </div>
         <p className="img_full" style={{ paddingTop: "50px", overflow: "hidden", color: "gray" }}>______________________________________________________________________________________________________________________________________________________________________________________________________</p>
-          <p style={{ textAlign: "center", color: "white" }}>©2022 Superb eCommerce | WordPress Theme by SuperbThemes </p>
+          <p style={{ textAlign: "center", color: "white" }}>©2023HoangHai eCommerce | React Theme by Hoang- Hai </p>
       </div>
     </div>
 

@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-
+import imglogin from "../home_pop/logo.png";
 const initCredential = { email: "", password: "", confirm_password: "" };
 
 
@@ -103,7 +103,7 @@ export default function Register() {
             <div style={{ width: "380px", height: "200px" }}>
               <img
                 className="mb-4 logo" style={{ width: "100%", height: "100%" }}
-                src="/react_baicuoikhoa/logo.png"
+                src={imglogin}
                 alt=""
               />
             </div>

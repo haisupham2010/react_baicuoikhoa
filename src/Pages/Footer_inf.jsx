@@ -8,7 +8,7 @@ export default function Footer_inf(props) {
 
             {/* hình begin */}
             <div className="col-2">
-                <img className="img-fluid" alt="" src={props.img_prop} />
+                <img style={{ width: "100%", height: "auto" }}  alt="" src={props.img_prop} />
             </div>
             {/* hình end */}
 
