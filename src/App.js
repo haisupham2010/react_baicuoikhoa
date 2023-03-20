@@ -27,7 +27,7 @@ import React, { useState } from 'react';
 // import { MyForm } from './Components/MyForm';
 // import { Events } from './Components/MyEvents';
 import { Alert } from "bootstrap";
-
+import Footer from "./Pages/Footer";   
 
 // import Card_text_but_img from "./Pages/Card_text_but_img";
 // import Car_text_img from "./Pages/Car_text_img";
@@ -73,7 +73,7 @@ function App() {
           <Route path="/react_baicuoikhoa" element={<HomePage />} />
           <Route path="/react_baicuoikhoa/register" element={<Register />} />
           <Route path="/react_baicuoikhoa/login" element={<Loginpage  />} />
-
+          <Route path="/react_baicuoikhoa/login/:idd" element={<Aboutusmenu />} />
         </Routes>
 
         {/* <ConnectionState isConnected={isConnected} />
@@ -97,6 +97,8 @@ function App() {
       </div> */}
 
       </IsloginProvider> 
+
+      <Footer />
     </div >
 
 

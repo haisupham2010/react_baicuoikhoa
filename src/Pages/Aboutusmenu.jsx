@@ -1,9 +1,12 @@
 import Card_text_but_img from "./Card_text_but_img";
 import Car_text_img from "./Car_text_img";
 import Car_text_text from "./Car_text_text";
+
 import "./Aboutusmenu.css";
 
 export default function Aboutusmenu() {
+
+
     return (
         <div>
 

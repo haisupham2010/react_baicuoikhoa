@@ -12,7 +12,7 @@ import { TranslationProvider } from "./IsloginContext";
 import { useState } from "react";
 
 import Footer_inf from "./Footer_inf";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 import { products_home } from "./data";
 
 export default function HomePage() {
@@ -350,7 +350,7 @@ export default function HomePage() {
 
 
 
-      <Footer />
+      {/* <Footer /> */}
 
 
 

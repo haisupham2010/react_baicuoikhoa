@@ -95,7 +95,7 @@ export default function Register() {
 
 
   return (
-    <div className="container d-flex align-items-center justify-content-center mt-5" >
+    <div className="container d-flex align-items-center justify-content-center mt-5 mb-5" >
 
       <div className="row" style={{ width: "400px" }}>
         <div className="">
