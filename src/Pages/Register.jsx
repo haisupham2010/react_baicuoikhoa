@@ -100,7 +100,7 @@ export default function Register() {
       <div className="row" style={{ width: "400px" }}>
         <div className="">
           <form onSubmit={handleFormSubmit} >
-            <div style={{ width: "400px", height: "200px" }}>
+            <div style={{ width: "380px", height: "200px" }}>
               <img
                 className="mb-4 logo" style={{ width: "100%", height: "100%" }}
                 src="/react_baicuoikhoa/logo.png"
