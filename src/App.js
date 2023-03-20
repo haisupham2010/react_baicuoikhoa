@@ -57,9 +57,9 @@ function App() {
 
   return (
     <div>
-      {/* <div className="position-relative d-flex align-items-center justify-content-center" style={{ height: "1200px", backgroundColor: "#ebe9eb" }}>
+      <div className="position-relative d-flex align-items-center justify-content-center" style={{ height: "1200px", backgroundColor: "#ebe9eb" }}>
       <Contactus />
-      </div> */}
+      </div>
       {/* <Loginpage /> */}
       {/* <Register /> */}
       {/* <Aboutusmenu /> */}

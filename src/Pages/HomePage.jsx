@@ -35,19 +35,19 @@ export default function HomePage() {
 
   //   console.log("data fetch", data);
   // };
-  const fetchPokemon = async () => {
-    const response = await fetch("https://tuongdoirong.com/api/node.php?f=outdata&up_gt=SELECT email FROM bangtao WHERE email='nguyen@gmail.com'&cot=email&database=bo_dem_ip");
-    const data = await response.json();
-    // setPokemons(data.results);
-    console.log("data fetch", data.kq);
-  };
+//   const fetchPokemon = async () => {
+//     const response = await fetch("https://tuongdoirong.com/api/node.php?f=outdata&up_gt=SELECT email FROM bangtao WHERE email='nguyen@gmail.com'&cot=email&database=bo_dem_ip");
+//     const data = await response.json();
+//     // setPokemons(data.results);
+//     console.log("data fetch", data.kq);
+//   };
 
 
-  useEffect(() => {
+//   useEffect(() => {
 
-    fetchPokemon();
+//     fetchPokemon();
 
- }, []);
+//  }, []);
 
   return (
 

@@ -144,7 +144,7 @@ export default function Contactus() {
                                         Send Message
                                     </button>
                                     <div>
-                                   {issuc && <div style={{color: "red" ,fontSize: "20px" ,textAlign: "center"}}>Thông tin đã được gửi về thành công</div>}
+                                   {issuc && <div style={{color: "blue" ,fontSize: "20px" ,textAlign: "center"}}>Thông tin đã được gửi về thành công</div>}
                                    </div>
                                 </div>
                             </div>
