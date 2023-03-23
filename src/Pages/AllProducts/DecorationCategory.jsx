@@ -79,7 +79,7 @@ function DecorationCategory() {
 
 
                   <div className="nav-linkfw-semibold mt-3 mb-1 res_css_tex" >
-                    <Link to={`/react_baicuoikhoa/products/${product.id}`}
+                    <Link to={`/react_baicuoikhoa/products/${product.id}`} className="fw-bold" style={{color: "black" }}
                     >
                       {`${product.name}`}
                     </Link>

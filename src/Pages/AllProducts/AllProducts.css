@@ -27,40 +27,40 @@ img.product-img:hover{
 
 height: 30px;
 font-size: 20px;
-
+color: #000000;
 }
 .css_res_contain{
-
+  color: #000000;
 
 }
 
 .css_res_contain_allpro{
   width: 75%;
- 
+  color: #000000;
  }
  .css_res_contain_allphai{
   width: 25%;
- 
+  color: #000000;
  }
 @media only screen and (max-width: 911px) {
   .css_res_contain{
     flex-direction: column;
-  
+    color: #000000;
   }
   .css_res_contain_allpro{
     width: 100%;
-   
+    color: #000000;
    }
    .css_res_contain_allphai{
     width: 100%;
-   
+    color: #000000;
    }
 
 }
 
 @media only screen and (max-width: 995px) {
   .res_css_tex{
-
+    color: #000000;
     height: 30px;
     font-size: 16px;
     
@@ -71,7 +71,7 @@ font-size: 20px;
 
 @media only screen and (max-width: 780px) {
   .res_css_tex{
-
+    color: #000000;
     height: 30px;
     font-size: 14px;
     
@@ -80,7 +80,7 @@ font-size: 20px;
 }
 @media only screen and (max-width: 476px) {
   .res_css_tex{
-
+    color: #000000;
     height: 40px;
     font-size: 14px;
     

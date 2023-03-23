@@ -75,7 +75,7 @@ function AllProducts() {
           </div>
           <h1 className="mt-3">All Products</h1>
           <div className="d-flex justify-content-end">
-          <form className="woocommerce-ordering" method="get">
+            <form className="woocommerce-ordering" method="get">
               <select
                 onChange={(value) => onChangeSort(value)}
                 name="orderby"
@@ -103,13 +103,15 @@ function AllProducts() {
                     <img className="product-img mt-3" src={product.img}></img>
                   </Link>
 
-                  <div className="nav-linkfw-semibold mt-3 mb-1 res_css_tex" > 
-                  <Link to={`/react_baicuoikhoa/products/${product.id}`}
-                  >
-                    {`${product.name}`}
-                  </Link>
-                  </div>
 
+                  <Link to={`/react_baicuoikhoa/products/${product.id}`} className="fw-bold" style={{color: "black" }}
+                  >
+                    <div className="nav-linkfw-semibold mt-3 mb-1 res_css_tex" >
+                 
+                      {product.name}
+
+                    </div>
+                  </Link>
 
                   <StarRating value={product.rating} />
                   <div className="d-flex mt-3">
@@ -146,8 +148,8 @@ function AllProducts() {
               </p>
             </div>
           </Link>
-             {/* Link to <DecorationCategory /> */}
-             <Link to="/react_baicuoikhoa/all-products/decoration" className="nav-link">
+          {/* Link to <DecorationCategory /> */}
+          <Link to="/react_baicuoikhoa/all-products/decoration" className="nav-link">
             <div
               style={{ cursor: "pointer" }}
               className="d-flex align-items-center mt-3 border-bottom pb-3"
@@ -167,8 +169,8 @@ function AllProducts() {
               className="d-flex align-items-center mt-3 border-bottom pb-3"
             >
               <img className="w-25" src={productImg4}></img>
-              
-            
+
+
               <p style={{ fontSize: 17 }} className="ms-3 mt-2">
                 {" "}
                 Frames & Posters ({ItemFrame.length}){" "}
