@@ -36,17 +36,17 @@ export default function PopularProducts(props) {
                 <img className="product-img" style={{height : "100%", width: "100%"}} src={product.img}></img>
         
      
-              <div className="mt-4">
-                {`${product.name}`}
+              <div className="mt-4 fw-bold" style={{ fontSize: "20px", color: "black"}}>
+              {`${product.name}`}
               </div>
 
               <StarRating value={product.rating} />
 
               <div className="d-flex mt-2">
-                <div className="text-decoration-line-through me-2 text-body-tertiary">
+                <div className="text-decoration-line-through me-2 text-body-tertiary" >
                   ${product.originPrice}.00
                 </div>
-                <div className="fw-semibold"> ${product.price}.00 </div>
+                <div className="fw-semibold" style={{fontSize: "20px", color: "black"}}> ${product.price}.00 </div>
               </div>
 
               </Link>
