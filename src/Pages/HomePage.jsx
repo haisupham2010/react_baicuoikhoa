@@ -221,7 +221,7 @@ export default function HomePage() {
               morbi leo urna molestie at. Tellus rutrum tellus pellentesque eu
               tincidunt tortor aliquam nulla facilisi.
             </p>
-            <Link to ="/about-us">
+            <Link to ="/react_baicuoikhoa/about-us">
             <button
               type="button"
               style={{ color: "white" }}
