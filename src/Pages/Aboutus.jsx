@@ -2,9 +2,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect } from "react";
 export default function Aboutus() {
      //Scroll to top each Page
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+     useEffect(() => {
+      setTimeout(function(){window.scrollTo(0, 0)},400)
+      
+    }, [])
   return (
     <div>
       <div style={{ gap: "3px", width: "300px" }}>
